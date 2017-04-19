@@ -1,0 +1,28 @@
+.negro{
+  width: 100px;
+  height: 10px;
+  background-color: #000;
+}
+.contenedor{
+  display: inline-block;
+}
+.grid{
+  position: relative;
+  border-radius: 300px;
+}
+.grid img{
+  border-radius: 300px;
+  opacity: 0.8;
+}
+.grid:hover{
+
+  cursor: pointer;
+  filter: brightness(130%);
+
+}
+.text{
+  position: absolute;
+  bottom: 40px;
+  left: 170px;
+  color: white;
+}
